@@ -21,6 +21,7 @@
 
   1. Clone the repository (git clone git@github.com:anurav18/eatBurger.git)
   2. Then open the terminal and run the command npm i to install all the dependencies included in package.json file.
+  3. Live App can be found at [Heroku](https://vast-anchorage-62856.herokuapp.com/)
 
   ## Usage
   This app is used to add the burgers which are ready or available to eat. When ever the burger is eaten we can click Devour It button to move it to the unavailable list on the right side of the page. We can delete the burger from the data base using the Delete button. 
