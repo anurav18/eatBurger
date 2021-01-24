@@ -1,9 +1,9 @@
 ### Schema
 
-DROP database if exists burger_db;
+DROP database if exists burgers_db;
 
-CREATE DATABASE burger_db;
-USE burger_db;
+CREATE DATABASE burgers_db;
+USE burgers_db;
 
 CREATE TABLE burger
 (
