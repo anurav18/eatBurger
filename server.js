@@ -20,35 +20,6 @@ app.set("view engine", "handlebars");
 const router = require("./controllers/burgerController");
 app.use(router);
 
-// var connection = mysql.createConnection({
-//   host: "localhost",
-//   port: 3306,
-//   user: "root",
-//   password: "9503Hancockave!",
-//   database: "burgers_db"
-// });
-
-// connection.connect(function(err) {
-//   if (err) {
-//     console.error("error connecting: " + err.stack);
-//     return;
-//   }
-
-//   console.log("connected as id " + connection.threadId);
-// });
-
-// Import routes and give the server access to them.
-// var routes = require("./controllers/catsController.js");
-
-// app.use(routes);
-
-// app.get("/",function(req,res){
-//   connection.query("Select * from burger",function(err,data){
-//     if(err) throw err;
-//     res.render("index",{burgers:data});
-//   })
-  
-// })
 
 app.listen(PORT, function() {
   console.log("App now listening at localhost:" + PORT);
