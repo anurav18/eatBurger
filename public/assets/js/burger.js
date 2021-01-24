@@ -17,9 +17,9 @@ $(function(){
 
     //Send a POST request
 
-    $("#postBurger").on("click",function(event){
+    $("#form-button").unbind('click').click(function(event){
         event.preventDefault();
-        var newBurger = {
+        const newBurger = {
             burgerName: $("#burger-input").val().trim(),
         };
         console.log(newBurger);
